@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" 
+        targetNamespace="http://www.yansheng.com/schema/ys"
+	    xmlns:tns="http://www.yansheng.com/schema/ys" 
+	    elementFormDefault="qualified">
+	    
+	    <element name="test">
+	    		<complexType>
+	    			<attribute name="id" type="string"/>
+	    			<attribute name="name" type="string"/>
+	    			<attribute name="sex" type="string"/>
+	    		</complexType>	
+	    </element>
+	    
+</schema>
