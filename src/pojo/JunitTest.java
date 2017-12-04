@@ -17,6 +17,7 @@ public class JunitTest {
 		xmlReader.loadBeanDefinitions("test.xml");
 		Bean1 b1 = (Bean1) factory.getBean("bean1");
 		System.out.println("name:" + b1.getName() + ",age:" + b1.getAge());
+		System.out.println("HellowWorld.....");
 	}
 
 	@Test
